@@ -1,0 +1,68 @@
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+
+.c{
+    /* background-color: red; */
+    height: 500px;
+    width: 500px;
+    margin: 0px 30px;
+}
+
+#b{
+    background-image: url("https://images-cdn.ubuy.com.sa/6350df47e5b47c73941f2f09-hp-17-3-fhd-ips-premium-laptop.jpg");
+    background-size: cover;
+    height: 590px;
+    width: 1000px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.i1, .i2, .i3, .i4{  
+    height: 90px;
+    width: 130px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.i1{
+    background-image: url("https://images-cdn.ubuy.com.sa/6350df47e5b47c73941f2f09-hp-17-3-fhd-ips-premium-laptop.jpg");
+    background-size: cover;
+}
+
+.i2{
+    background-image: url("https://images-cdn.ubuy.co.in/633bbfc752b5c96069192374-hp-15-6-hd-display-business-laptop-11th.jpg");
+    background-size: cover;
+}
+
+.i3{
+    background-image: url("https://www.hp.com/content/dam/sites/worldwide/personal-computers/consumer/laptops-and-2-n-1s/pavilion/Front_aero-13-desktop2x.png");
+    background-size: cover;
+}
+
+.i4{
+    background-image: url("https://thumbs.dreamstime.com/b/laptop-computer-hp-top-cardboard-box-logo-illustrative-editorial-over-grey-background-314254898.jpg");
+    background-size: cover;
+}
+
+.texx p{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: start;
+}
+
+.texx{
+    padding: 50px;
+}
+
+.texx button{
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(60, 60, 110);
+    color: white;
+    font-size: 20px;
+    padding: 10px 30px;
+}
